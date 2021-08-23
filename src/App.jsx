@@ -1,5 +1,12 @@
 import '../src/styles/global.scss'
+import {RepositoryList} from "./components/RepositoryList";
+import {Counter} from "./components/Counter";
 
 export default function App(){
-    return <h1>Hello ReactJs xd</h1>
+    return (
+        <>
+            <RepositoryList/>
+            <Counter/>
+        </>
+    )
 }
